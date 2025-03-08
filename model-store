@@ -1,0 +1,2 @@
+# FILE: /whisper-torchserve/whisper-torchserve/model-store/README.md
+This directory is intended to hold the model artifacts that will be served by TorchServe. It will contain the model files and any additional resources required for inference.
