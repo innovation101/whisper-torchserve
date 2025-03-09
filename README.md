@@ -36,7 +36,7 @@ docker build -t whisper-torchserve .
 After building the image, you can run the TorchServe server using the provided `serve.sh` script:
 
 ```bash
-./serve.sh
+docker run --gpus all -p 8080:8080 -p 8081:8081 -p 8082:8082 whisper-torchserve
 ```
 
 ### Using the Whisper Model
